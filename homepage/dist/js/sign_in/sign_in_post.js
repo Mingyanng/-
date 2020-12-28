@@ -1,0 +1,19 @@
+$('.login').click(function(){
+       user=$(this).parents(".user");    
+        $.ajax({
+          type:"post",
+          url:"test/check.php",
+          data:{              
+              id:user.find('.userid').val(),
+              pw:user.find('.password').val()
+          },
+          success:function(data){
+           		data=$.trim(data);
+        		if (data=="0"){
+                     window.location.href="../admin.php";          
+        		}else{
+                   user.find('.loginalert').html(data);  
+                }           
+         }
+        });
+    });
