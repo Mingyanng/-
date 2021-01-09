@@ -5,8 +5,8 @@ try{
 	PDO::ATTR_ERRMODE
 		=>PDO::ERRMODE_EXCEPTION );
   $conn = new PDO(
-	"mysql:host=127.0.0.1;dbname=order;charset=utf8;", 
-	"root", "654321", $option );
+	"mysql:host=db;dbname=order;charset=utf8;", 
+	"root", "test", $option );
 }catch(PDOException $e){
   die($e->getMessage());
 }   

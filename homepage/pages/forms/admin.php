@@ -1,8 +1,8 @@
 <?php
-    require("connection/connect.php");
     session_start();
+    include 'connection/connect.php';   
     if (empty($_SESSION['name'])){
-     header("LOCATION:sign-in/login.php");
+     @header("LOCATION:sign-in/login.php");
     }
 ?>
 <!DOCTYPE html>
