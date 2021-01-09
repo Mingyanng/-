@@ -8,8 +8,8 @@ Programming language:PHP
 
 Tools:Docker
 
-userpage:homepage/pages/forms/index.php
+Userpage:homepage/pages/forms/index.php
 
-adminpage:homepage/pages/forms/admin.php
+Adminpage:homepage/pages/forms/admin.php
 
-datebase:order.sql
+Datebase:order.sql
