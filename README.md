@@ -1,4 +1,4 @@
-# Kadai
+# electronic commerce site
 
 Website language(visitor):Japanese, English, Traditional Chinese, Simplified Chinese, Korean
 
